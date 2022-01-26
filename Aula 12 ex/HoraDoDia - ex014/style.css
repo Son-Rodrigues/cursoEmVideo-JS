@@ -1,0 +1,25 @@
+body {
+    background-color: hsla(240, 64%, 61%, 0.897);
+    font: normal 18pt arial;
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+
+#foto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-style: italic;
+}

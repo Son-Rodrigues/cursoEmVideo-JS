@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font: normal 20pt arial;
+            text-align: center;
+        }
+
+        input#txtn1 {
+            padding: 5px 5px 5px 5px;
+        }
+
+        input#txtn2 {
+            padding: 5px 5px 5px 5px;
+        }
+
+        input#btn {
+            padding: 5px 5px 5px 5px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+            transition: all 1s ease-out;
+        }
+
+        #btn:hover {
+            background-color: white;
+            color: green;
+        }
+
+        div {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()" id="btn">
+
+    <div id="resul">Resultado</div>
+
+    <script src="ex007.js"></script>
+</body>
+</html>

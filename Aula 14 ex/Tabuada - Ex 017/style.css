@@ -1,0 +1,61 @@
+body {
+    background-image: url(img/tabuada.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font: normal 18pt arial;
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+
+#valor {
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    transition: all 1s ease-out;
+}
+
+#valor:hover {
+    font-size: 20px;
+}
+
+#btn {
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: all 1s ease-out;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+}
+
+#tabuada {
+    border: none;
+    border-radius: 5px;
+    font: bolder 20px arial;
+    transition: all 1s ease-out;
+}
+
+#tabuada:hover {
+    background-color: black;
+    color: white;
+    font: bolder 30px arial;
+}
+
+footer {
+    font-style: italic;
+}

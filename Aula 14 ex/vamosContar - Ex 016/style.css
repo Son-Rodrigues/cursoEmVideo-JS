@@ -1,0 +1,55 @@
+body {
+    background-image: url(img/contar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font: bolder 14pt arial;
+    text-align: center;
+    color: black;
+}
+
+section {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    text-align: start;
+}
+
+p {
+    font-size: 14px;
+}
+
+input {
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+#contar {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    transition: all 1s ease-out;
+    padding: 10px 10px 10px 10px;
+}
+
+#contar:hover {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+#resultado {
+    font: bolder 18px black;
+    text-align: center;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 20px;
+}
